@@ -9,6 +9,11 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
    ========================================================================== */
 html,
 body {
+    background-image: url(bb.jpg);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-attachment: fixed;
+
     font-size: 15px;
     color: #565656;
     width: 100%;
@@ -195,7 +200,7 @@ p:last-child {
     /*font-family: 'roboto', sans-serif;*/
 }
 .text {
-    color: #333333;
+    color: #000000;
 }
 .colorstext {
     color: #f56363;
@@ -589,7 +594,7 @@ textarea::-ms-input-placeholder
 
 /*For Home Section*/
 .home{
-    background:url(../images/homebg.jpg) no-repeat center center;
+    background-color: rgba(0,0,0,0.13);
     color:#000;
 	background-size:cover;
 	-webkit-background-size:cover;
@@ -659,7 +664,9 @@ textarea::-ms-input-placeholder
 }
 
 /* features  section */
-
+.features{
+    background-color: rgba(0,0,0,0.25);
+}
 .single_features_left img{
     height:460px;
 }
@@ -682,7 +689,9 @@ textarea::-ms-input-placeholder
 }
 
 /* Service2 Section */
-.service2{}
+.service2{
+    background-color: rgba(0,0,0,0.25);
+}
 .service_content{
     width: 90%;
     margin: 0 auto;
@@ -1543,6 +1552,7 @@ xkeyframes
 /* Contact Section */
 
 .contact_content{
+    
     width: 80%;
     margin: 50px auto;
 }
@@ -1574,8 +1584,7 @@ xkeyframes
     border-radius:50%;
 }
 .single_right_contact .contact_socail_bookmark a:hover i{
-    color:#8a3b6a;
-    border:1px solid #8a3b6a;
+    
 }
 
 
@@ -1583,7 +1592,7 @@ xkeyframes
 /*For Footer Menu Section*/
 
 .footer-menu{
-    background:#efefef;
+    background:rgba(0,0,0,0.25);
     color:#000;
     border-bottom:1px solid #cfcdcd;
 }
@@ -1630,7 +1639,6 @@ xkeyframes
 /*For Footer Section*/
 .footer{
 
-    color:#000;
 }
 .footer-wrapper{
     padding:20px 0px;

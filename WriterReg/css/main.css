@@ -167,6 +167,7 @@ body {
   font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
   font-weight: 400;
   font-size: 14px;
+  background-image: url(css/background.jpg);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -217,7 +218,7 @@ h6 {
 }
 
 .bg-gra-02 {
- /* background: -webkit-gradient(linear, left bottom, right top, from(#d2dbd4), to(#b8bcb9));
+  /*background: -webkit-gradient(linear, left bottom, right top, from(#d2dbd4), to(#b8bcb9));
   background: -webkit-linear-gradient(bottom left, #d2dbd4 0%, #b8bcb9 100%);
   background: -moz-linear-gradient(bottom left, #d2dbd4 0%, #b8bcb9 100%);
   background: -o-linear-gradient(bottom left, #d2dbd4 0%, #b8bcb9 100%);
@@ -226,6 +227,7 @@ h6 {
   background-repeat: no-repeat;
   background-position:center;
   background-attachment: fixed;
+
 }
 
 /* ==========================================================================

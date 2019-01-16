@@ -32,7 +32,7 @@
   color: #fff;
   color: white;
   line-height: 40px;
-  background-color: #335e3b;
+  background-color: #2b914d;
   padding: 0 20px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -217,12 +217,12 @@ h6 {
 }
 
 .bg-gra-02 {
- /* background: -webkit-gradient(linear, left bottom, right top, from(#d2dbd4), to(#b8bcb9));
+  /*background: -webkit-gradient(linear, left bottom, right top, from(#d2dbd4), to(#b8bcb9));
   background: -webkit-linear-gradient(bottom left, #d2dbd4 0%, #b8bcb9 100%);
   background: -moz-linear-gradient(bottom left, #d2dbd4 0%, #b8bcb9 100%);
   background: -o-linear-gradient(bottom left, #d2dbd4 0%, #b8bcb9 100%);
   background: linear-gradient(to top right, #d2dbd4 0%, #b8bcb9 100%);*/
-  background-image: url(back.jpg);
+   background-image: url(back.jpg);
   background-repeat: no-repeat;
   background-position:center;
   background-attachment: fixed;
@@ -650,7 +650,7 @@ input {
   font-size: 24px;
   color: #525252;
   font-weight: 400;
-  margin-bottom: 40px;
+  margin-bottom: 5px;
 }
 
 /* ==========================================================================
@@ -664,6 +664,8 @@ input {
 }
 
 .card-4 {
+  width: 120%;
+  margin-left: 20px
   background: #fff;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
